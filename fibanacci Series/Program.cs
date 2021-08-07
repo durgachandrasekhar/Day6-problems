@@ -1,39 +1,30 @@
 ﻿using System;
 
-namespace Perfectnumber
+namespace Primenumber
+
 {
-    class Program
+  public class Program
     {
         public static void Main(string[] args)
         {
-            int n, i, sum;
-            int n1, n2;
-            Console.Write("Find perfect numbers within a given number of range :");
-            Console.WriteLine("Enter the starting range of number :");
-            n1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the ending range of number:");
-            n2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The Perfect numbers within the given range :");
-            for (n = n1; n <= n2; n++)
+            int n, i, m = 0, flag = 0;
+            Console.Write("Enter the Number to check Prime: ");
+            n = int.Parse(Console.ReadLine());
+            m = n / 2;
+            for (i = 2; i <= m; i++)
             {
-                i = 1;
-                sum = 0;
-                while (i < n)
+                if (n % i == 0)
                 {
-                    if (n % i == 0)
-                        sum = sum + i;
-                    i++;
+                    Console.Write("Number is not Prime.");
+                    flag = 1;
+                    break;
                 }
-
-                if (sum == n)
-                    Console.WriteLine("{0} ", n);
-                else
-                    Console.WriteLine("It is not a perfect number");
-            } 
-           
-
-           
+            }
+            if (flag == 0)
+                Console.Write("Number is Prime.");
+        } 
+                      
         }
     }
-}
+
 
