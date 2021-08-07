@@ -1,23 +1,39 @@
 ﻿using System;
 
-namespace fibanacci_Series
+namespace Perfectnumber
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            int n1 = 0, n2 = 1, n3, i, number;
-            Console.Write("Enter the number of elements: ");
-            number = int.Parse(Console.ReadLine());
-            Console.Write(n1 + " " + n2 + " ");   
-            for (i = 2; i < number; ++i)     
+            int n, i, sum;
+            int n1, n2;
+            Console.Write("Find perfect numbers within a given number of range :");
+            Console.WriteLine("Enter the starting range of number :");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the ending range of number:");
+            n2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The Perfect numbers within the given range :");
+            for (n = n1; n <= n2; n++)
             {
-                n3 = n1 + n2;
-                Console.Write(n3 + " ");
-                n1 = n2;
-                n2 = n3;
+                i = 1;
+                sum = 0;
+                while (i < n)
+                {
+                    if (n % i == 0)
+                        sum = sum + i;
+                    i++;
+                }
 
-            }
+                if (sum == n)
+                    Console.WriteLine("{0} ", n);
+                else
+                    Console.WriteLine("It is not a perfect number");
+            } 
+           
+
+           
         }
     }
 }
+
