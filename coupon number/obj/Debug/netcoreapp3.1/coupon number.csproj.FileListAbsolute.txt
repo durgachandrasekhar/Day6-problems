@@ -1,0 +1,13 @@
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.exe
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.deps.json
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.runtimeconfig.json
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.runtimeconfig.dev.json
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.dll
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\bin\Debug\netcoreapp3.1\coupon number.pdb
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.csproj.AssemblyReference.cache
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.AssemblyInfoInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.AssemblyInfo.cs
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.csproj.CoreCompileInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.dll
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.pdb
+C:\Users\SHIVA KUMAR\source\repos\coupon number\coupon number\obj\Debug\netcoreapp3.1\coupon number.genruntimeconfig.cache
